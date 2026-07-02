@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support portal for NKlabs apps. Get answers to frequently asked questions about NumBro, or submit a support inquiry.">
+    <title>Support Portal | NKlabs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="weblogo.png" alt="NKlabs Logo" class="logo-img"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html#apps">Apps</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="support.html" class="active">Support</a></li>
+                </ul>
+            </nav>
+            <a href="#contact-anchor" class="btn btn-secondary">Get Support</a>
+        </div>
+    </header>
+
+    <!-- Subpage Hero -->
+    <section class="subpage-hero">
+        <div class="container">
+            <h1>Support Portal</h1>
+            <div class="subpage-meta">How can we help you today? | NKlabs Support</div>
+        </div>
+    </section>
+
+    <!-- Support Content -->
+    <section class="subpage-content">
+        <div class="container">
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2 class="section-title" style="margin-bottom: 12px;">Frequently Asked Questions</h2>
+                <p class="section-subtitle" style="margin-bottom: 40px;">Common questions about using the NumBro app and learning Hindi numbers.</p>
+                
+                <div class="faq-list">
+                    <!-- FAQ 1 -->
+                    <div class="faq-item active">
+                        <button class="faq-trigger">
+                            <span>How does the Hindi voice input feature work?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            <p>NumBro leverages your Android device's built-in speech-to-text service. When you tap the microphone button, you can speak a number in Hindi (e.g. speaking "Pachpan" or "Chaurasi"). The app transcribes your speech and instantly provides the breakdown in English digits, English words, Devanagari numerals, and Hindi spelling.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 2 -->
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>Does NumBro work offline?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            <p>Yes, absolutely! The core calculation engine, translation logic, phonetic guidelines, and speech synthesis run 100% offline. You do not need a Wi-Fi or cellular connection to translate numbers, which makes NumBro the perfect utility for traveling or exploring remote markets in India where data may be limited.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 3 -->
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>Is my microphone audio stored or uploaded to servers?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            <p>No. Your privacy is our highest priority. Microphone access is used exclusively on-device. Audio files are processed in memory to produce text and are never recorded, saved, or uploaded to any NKlabs server or third-party entity.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- FAQ 4 -->
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>What are Devanagari/Hindi digits?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            <p>While modern English uses Arabic numerals (1, 2, 3...), Hindi also utilizes the Devanagari script for digits (१, २, ३...). NumBro displays both formats so you can easily associate standard numbers with local bills, price tags, and street signs in India.</p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="faq-item">
+                        <button class="faq-trigger">
+                            <span>The TTS audio button doesn't play sound. How do I fix it?</span>
+                            <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-content">
+                            <p>NumBro uses Android's Text-To-Speech (TTS) engine. Please make sure that the Hindi (India) speech voice package is downloaded on your device. You can verify this in your Android system Settings -> System -> Languages & input -> Text-to-speech output -> Preferred engine settings (download Hindi language pack).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form Anchor -->
+            <div id="contact-anchor" style="padding-top: 100px;">
+                <div class="contact-layout">
+                    <div class="contact-info">
+                        <h2>Submit a Ticket</h2>
+                        <p>If you couldn't find an answer to your question in our FAQ list, please fill out this form. Our support team is active 24/7 and will review your inquiry immediately.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <div class="method-icon">✉</div>
+                                <div class="method-details">
+                                    <h5>Support Email</h5>
+                                    <p>neerajkajallabs@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card contact-form-card">
+                        <form action="https://formsubmit.co/neerajkajallabs@gmail.com" method="POST" class="contact-form">
+                            <div class="form-group">
+                                <label for="support-name">Your Name</label>
+                                <input type="text" id="support-name" name="name" class="form-control" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="support-email">Email Address</label>
+                                <input type="email" id="support-email" name="email" class="form-control" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="support-subject">Subject</label>
+                                <input type="text" id="support-subject" name="subject" class="form-control" placeholder="Unable to download voice database" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="support-message">How can we help?</label>
+                                <textarea id="support-message" name="message" class="form-control" placeholder="Provide as many details as possible, including your device model..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Support Ticket</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <a href="index.html" class="logo"><img src="weblogo.png" alt="NKlabs Logo" class="logo-img"></a>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#apps">Apps</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="support.html">Support Portal</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NKlabs. All rights reserved. Built by Neeraj Kajal.</p>
+                <p style="font-size: 11px;">Google Play and the Google Play logo are trademarks of Google LLC.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
